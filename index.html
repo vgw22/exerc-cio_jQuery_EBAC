@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./images/tarefaspng.png" alt="ícone de lista de tarefas">
+        <h1>Controlador de Tarefas</h1>
+        <button type="button">Adicionar tarefa +</button>
+    </header>
+    <div class="container">
+        <form id="task-form">
+            <h2>Lista de tarefas</h2>
+            <input type="text" id="task-input"required placeholder="Tarefa">
+            <button type="submit" required>Adicionar</button>
+            <button type="reset" id="cancel-button" required>Cancelar</button>
+        </form>
+        <table>
+            <thead>
+                <ul>
+                    <div class="centered-text">
+                        <li>
+                        </li>
+                    </div>
+                </ul> 
+            </thead>  
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
